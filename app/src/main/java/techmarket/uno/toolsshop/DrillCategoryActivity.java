@@ -25,7 +25,7 @@ public class DrillCategoryActivity extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.hide();
         }
-        drills = new ArrayList<Drill>();
+        drills = new ArrayList<>();
         //добавляем виды дрелей
         drills.add(new Drill(
                 getString(R.string.drill_interskol_title),
@@ -42,7 +42,7 @@ public class DrillCategoryActivity extends AppCompatActivity {
 
         //к ListView мы не можем просто добавить массив дрелей - нужен адаптер
         //необходимо передать три параметра
-        ArrayAdapter<Drill> adapter = new ArrayAdapter<Drill>(
+        ArrayAdapter<Drill> adapter = new ArrayAdapter<>(
                 getApplicationContext(),
                 android.R.layout.simple_list_item_1,
                 drills);
