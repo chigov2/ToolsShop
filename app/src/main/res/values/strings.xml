@@ -1,11 +1,20 @@
 <resources>
     <string name="app_name">Tools Shop</string>
     <string name="content_description_logo">Tools shop logo</string>
+    <string name="drill_category">Drill category</string>
+
     <string-array name="tools">
         <item>Дрели</item>
         <item>Перфораторы</item>
         <item>Болгарки</item>
     </string-array>
 
+    <string name="drill_interskol_title">Drill Interskol</string>
+    <string name="drill_makita_title">Makita Interskol</string>
+    <string name="drill_dewalt_title">Dewalt Interskol</string>
+
+    <string name="drill_interskol_info">Drill Interskol desc</string>
+    <string name="drill_makita_info">Makita Interskol desc</string>
+    <string name="drill_dewalt_info">Dewalt Interskol_desc</string>
 
 </resources>
