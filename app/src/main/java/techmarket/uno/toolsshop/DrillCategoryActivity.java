@@ -60,7 +60,7 @@ public class DrillCategoryActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), DrillDetailActivity.class);
                 intent.putExtra("title",drill.getTitle());
                 intent.putExtra("info",drill.getInfo());
-                intent.putExtra("resID",drill.getImageResourceId());
+                intent.putExtra("resId",drill.getImageResourceId());
                 startActivity(intent);
             }
         });
